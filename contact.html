@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Initiate Deployment — Neo Growth Machine</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container navbar">
+        <a href="index.html" class="logo"
+          ><img src="./assets/logo.png" alt="Marketingbyneo Logo"
+        /></a>
+        <button class="nav-toggle" aria-label="Toggle Menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="results.html" class="nav-link">Results</a></li>
+          <li><a href="packages.html" class="nav-link">Packages</a></li>
+          <li><a href="training.html" class="nav-link">Training</a></li>
+          <li><a href="blog.html" class="nav-link">Insights</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+          <li>
+            <a href="payment-terms.html" class="nav-link">Pricing</a>
+          </li>
+          <li>
+            <a href="#" class="btn btn-primary" style="padding: 0.5rem 1.25rem"
+              >Book a Call</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="section" style="padding-top: 10rem">
+      <div class="container">
+        <div class="grid-2" style="align-items: center; gap: 4rem">
+          <div>
+            <span class="badge">System Configuration Access</span>
+            <h1
+              style="font-size: 3rem; font-weight: 900; margin-bottom: 1.5rem"
+            >
+              Let's Build Your <span>Custom Pipeline</span>
+            </h1>
+            <p style="color: var(--text-muted)">
+              Submit your company target dimensions below. Our configuration
+              team will map your outbound market landscape and present an
+              actionable execution blueprint.
+            </p>
+          </div>
+
+          <div class="form-container">
+            <form id="agency-booking-form">
+              <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input
+                  type="text"
+                  id="fullName"
+                  name="fullName"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="businessEmail">Corporate Email</label>
+                <input
+                  type="email"
+                  id="businessEmail"
+                  name="businessEmail"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%">
+                Request System Configuration
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Include identical footer as index.html -->
+    <script src="JS/main.js"></script>
+  </body>
+</html>
