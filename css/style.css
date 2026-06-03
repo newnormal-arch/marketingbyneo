@@ -24,6 +24,10 @@
   --shadow-gold: 0 10px 40px -10px hsl(43 74% 52% / 0.45);
   --card: hsl(0 0% 7%);
   --border: hsl(43 30% 18%);
+  --shadow-gold-lg: 0 20px 60px -15px hsl(43 74% 52% / 0.55);
+  --tw-gradient-stops:
+    var(--tw-gradient-from), hsl(var(--card)) var(--tw-gradient-via-position),
+    var(--tw-gradient-to);
 }
 
 * {
