@@ -28,6 +28,7 @@
   --tw-gradient-stops:
     var(--tw-gradient-from), hsl(var(--card)) var(--tw-gradient-via-position),
     var(--tw-gradient-to);
+  --input-bg: hsl(0 0% 12%);
 }
 
 * {
