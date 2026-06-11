@@ -4,7 +4,7 @@
 :root {
   --bg-dark: #0b0f19;
   --background: hsl(0 0% 4%);
-  --bg-card: #131c2e;
+  --bg-card: hsl(0 0% 7%);
   --bg-card-hover: #1e293b;
   --primary: hsl(43, 74%, 52%);
   --primary-hover: #6d28d9;
@@ -143,7 +143,7 @@ img {
 }
 .card {
   background-color: var(--bg-card);
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--border);
   border-radius: 12px;
   padding: 2.5rem;
   transition: var(--transition);
@@ -151,7 +151,6 @@ img {
 .card:hover {
   transform: translateY(-5px);
   border-color: var(--primary);
-  background-color: var(--bg-card-hover);
 }
 
 .what-we-do {
